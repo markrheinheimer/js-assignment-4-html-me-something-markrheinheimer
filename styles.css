@@ -60,6 +60,11 @@ img {
   margin: 0;
   width: 700px;
   height: 500px;
+  transition: opacity 7s ease;
+}
+
+img:hover {
+  opacity: 0;
 }
 
 ul {
