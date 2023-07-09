@@ -88,24 +88,22 @@ li {
   height: 110px;
   width: 110px;
   position: absolute;
-  top: 50%;
-  left: 0;
   transform: translateX(-100%);
-  animation: moveCar 5s infinite;
+  animation: moveCar 3s infinite;
 }
 
 .car-container {
   position: relative;
-  width: auto;
-  height: 100px;
+  width: 100vw;
+  height: 300px;
 }
 
 @keyframes moveCar {
   0% {
-    transform: translatex(-700%);
+    transform: translatex(-100%);
   }
   100% {
-    transform: translateX(700%);
+    transform: translateX(100vw);
   }
 }
 

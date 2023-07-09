@@ -26,48 +26,48 @@ mazda323.addEventListener('click', (e) => {
   mazda323show.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
 mazda626a.addEventListener('click', (e) => {
   mazda626ashow.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
 dodgeram.addEventListener('click', (e) => {
   dodgeramshow.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
 fordexpedition.addEventListener('click', (e) => {
   fordexpeditionshow.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
 fordexplorer.addEventListener('click', (e) => {
   fordexplorershow.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
 minicooper.addEventListener('click', (e) => {
   minicoopershow.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
 fordtransit.addEventListener('click', (e) => {
   fordtransitshow.classList.remove('noshow');
   setTimeout(
     () => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }),
-    5000
+    7000
   );
 });
