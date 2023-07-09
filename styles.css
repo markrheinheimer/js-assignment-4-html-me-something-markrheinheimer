@@ -38,8 +38,8 @@ header {
 }
 
 a {
-  color: rgb(255, 237, 78);
   text-decoration: none;
+  color: purple;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 a:visited {
-  color: purple;
+  color: rgb(255, 237, 78);
 }
 
 p {
