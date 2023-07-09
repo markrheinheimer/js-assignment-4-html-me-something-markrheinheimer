@@ -18,7 +18,8 @@ body {
     rgb(231, 231, 231),
     rgb(137, 137, 137)
   );
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 header {
