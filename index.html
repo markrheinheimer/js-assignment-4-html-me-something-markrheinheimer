@@ -4,39 +4,36 @@
     <title>My Car Journey</title>
   </head>
   <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
   <body>
     <header>
-      <h1 class="header-title">Cars I Have Driven Over the Years:</h1>
+      <h1 id="mainHeading">Cars I Have Driven Over the Years:</h1>
       <ul>
-        <li class="mazda626"><a href="#mazda626">1990 Mazda 626</a></li>
-        <li class="mazda323"><a href="#mazda323">1989 Mazda 323</a></li>
-        <li class="mazda626a"><a href="#mazda626a">1998 Mazda 626</a></li>
-        <li class="dodgeram"><a href="#dodgeram">2007 Dodge Ram 1500</a></li>
-        <li class="fordexpedition">
-          <a href="#fordexpedition">2007 Ford Expedition</a>
-        </li>
-        <li class="fordexplorer">
-          <a href="#fordexplorer">2013 Ford Explorer</a>
-        </li>
-        <li class="minicooper">
-          <a href="#minicooper">2010 Mini Cooper pearl</a>
-        </li>
-        <li class="fordtransit">
-          <a href="#fordtransit">My Next Car If My Wife Gets Her Way</a>
+        <li><a href="#mazda626" id="car1">1990 Mazda 626</a></li>
+        <li><a href="#mazda323" id="car2">1989 Mazda 323</a></li>
+        <li><a href="#mazda626a" id="car3">1998 Mazda 626</a></li>
+        <li><a href="#dodgeram" id="car4">2007 Dodge Ram 1500</a></li>
+        <li><a href="#fordexpedition" id="car5">2007 Ford Expedition</a></li>
+        <li><a href="#fordexplorer" id="car6">2013 Ford Explorer</a></li>
+        <li><a href="#minicooper" id="car7">2010 Mini Cooper</a></li>
+        <li>
+          <a href="#fordtransit" id="car8"
+            >My Next Car If My Wife Gets Her Way</a
+          >
         </li>
       </ul>
     </header>
     <main>
-      <article>
+      <article class="mazda626 noshow">
         <h2 id="mazda626">1990 Mazda 626</h2>
-        <p>
+        <p id="testP" class="funParagraph">
           My very first car. I learned how to drive on this and it was a manual.
           It will always have a special place in my heart.
         </p>
         <img src="./images/mazda626.jpg" />
       </article>
 
-      <article>
+      <article class="mazda323 noshow">
         <h2 id="mazda323">1989 Mazda 323</h2>
         <p>
           My second car. Towards the end of it's life it dropped a cylinder, but
@@ -45,7 +42,7 @@
         <img src="./images/mazda323.jpg" />
       </article>
 
-      <article>
+      <article class="mazda626a noshow">
         <h2 id="mazda626a">1998 Mazda 626</h2>
         <p>
           My love of my first car brought me around to buying another 626. This
@@ -54,7 +51,7 @@
         <img src="./images/mazda626g.jpg" />
       </article>
 
-      <article>
+      <article class="dodgeram noshow">
         <h2 id="dodgeram">2007 Dodge Ram 1500</h2>
         <p>
           This was my dedicated work vehicle and having second row seats still
@@ -63,8 +60,8 @@
         <img src="./images/dodgeram1500.jpg" />
       </article>
 
-      <article>
-        <h2 id="fordexpedition">2007 Ford Expedition black</h2>
+      <article class="fordexpedition noshow">
+        <h2 id="fordexpedition">2007 Ford Expedition</h2>
         <p>
           My multipurpose work vehicle. Still allows me to manage construction
           projects and with 8 seats it will transport the whole family.
@@ -72,16 +69,16 @@
         <img src="./images/fordexpedition.jpg" />
       </article>
 
-      <article>
-        <h2 id="fordexplorer">2013 Ford Explorer sterling gray metallic</h2>
+      <article class="fordexplorer noshow">
+        <h2 id="fordexplorer">2013 Ford Explorer</h2>
         <p>
           My wife's car, but occassionally I'll drive it. She really loves it.
         </p>
         <img src="./images/fordexplorer.jpg" />
       </article>
 
-      <article>
-        <h2 id="minicooper">2010 Mini Cooper pearl white</h2>
+      <article class="minicooper noshow">
+        <h2 id="minicooper">2010 Mini Cooper</h2>
         <p>
           My putting around car. Fun to drive, and a little more reasonable than
           driving a huge vehicle around by yourself.
@@ -89,7 +86,7 @@
         <img src="./images/minicooper.jpeg" />
       </article>
 
-      <article>
+      <article class="fordtransit noshow">
         <h2 id="fordtransit">2015 Ford Transit</h2>
         <p>
           If a baby number 7 is in the picture, then we won't fit in the
