@@ -2,15 +2,23 @@
 
 * {
   font-family: 'Ubuntu', sans-serif;
-  margin: 5px;
+  margin: 0px;
   font-weight: 500;
   line-height: 1.4;
 }
 
 body {
-  margin: 8px;
+  margin: 0px;
   display: block;
   margin-bottom: 125px;
+  background: linear-gradient(
+    140deg,
+    rgb(234, 234, 234),
+    rgb(137, 137, 137),
+    rgb(231, 231, 231),
+    rgb(137, 137, 137)
+  );
+  overflow: hidden;
 }
 
 header {
@@ -20,11 +28,6 @@ header {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50vh;
-  background: linear-gradient(
-    to bottom right,
-    rgb(234, 234, 234),
-    rgb(137, 137, 137)
-  );
 }
 
 #mainHeading {
@@ -48,11 +51,11 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(255, 237, 78);
+  color: rgb(98, 88, 0);
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 15px;
 }
 
@@ -60,7 +63,7 @@ img {
   margin: 0;
   width: 700px;
   height: 500px;
-  transition: opacity 7s ease;
+  transition: opacity 12s ease;
 }
 
 img:hover {
@@ -79,6 +82,32 @@ li {
   color: black;
 }
 
+.car-icon {
+  margin-top: 100px;
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateX(-100%);
+  animation: moveCar 5s infinite;
+}
+
+.car-container {
+  position: relative;
+  width: auto;
+  height: 100px;
+}
+
+@keyframes moveCar {
+  0% {
+    transform: translatex(-700%);
+  }
+  100% {
+    transform: translateX(700%);
+  }
+}
+
 h2 {
   margin-top: 50px;
 }
@@ -93,45 +122,44 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 150px;
-  margin-top: 150px;
+  margin-bottom: 300px;
+  margin-top: 300px;
 }
 
 article:first-of-type {
   margin-top: 100px;
 }
 
+article:last-of-type {
+  margin-bottom: 120px;
+}
+
 #mazda626,
 #mazda323,
 #fordexplorer {
-  font-size: 30px;
-  color: gray;
+  font-size: 38px;
+  color: rgb(77, 77, 77);
 }
 
 #mazda626a {
-  font-size: 30px;
+  font-size: 38px;
   color: green;
 }
 
 #dodgeram {
-  font-size: 30px;
-  background-color: black;
-  color: rgb(241, 241, 7);
+  font-size: 38px;
+  font-weight: 700;
+  color: rgb(255, 255, 0);
 }
 
-#minicooper {
-  font-size: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: black;
-  color: white;
+#fordexpedition {
+  font-size: 38px;
+  color: black;
 }
 
+#minicooper,
 #fordtransit {
-  font-size: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: black;
+  font-size: 38px;
   color: white;
 }
 
